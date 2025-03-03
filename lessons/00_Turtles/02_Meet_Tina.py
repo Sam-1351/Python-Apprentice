@@ -16,7 +16,7 @@ turtle.setup(width=600, height=600)     # Set the size of the window
 bob =turtle.Turtle()                  # Create a turtle named tina
 
 bob.shape('turtle')                    # Set the shape of the turtle to a turtle
-bob.speed(1)                           # Make the turtle move as fast, but not too fast.
+bob.speed(2)                           # Make the turtle move as fast, but not too fast.
 
 bob.pencolor('gold')                   # Set the pen color to blue
 bob.forward(150)                       # Move tina forward by the forward distance
@@ -43,7 +43,7 @@ bob.backward(20)                       # Move tina backward by 20
 
 bob.goto(-50,0)
 bob.pendown()
-bob.color('white')                       # Set the color of tina to red
+bob.color('black')                       # Set the color of tina to red
 bob.begin_fill()
 bob.circle(101, steps=50)
 bob.end_fill()

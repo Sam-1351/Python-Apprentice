@@ -12,12 +12,33 @@ to see how to use the turtle commands.
 import turtle                           # Tell Python we want to work with the turtle
 turtle.setup (width=600, height=600)    # Set the size of the window
 
-tina = turtle.Turtle()                  # Create a turtle named tina
+bob = turtle.Turtle()                  # Create a turtle named bob
 
-# Use tina.forward() and tina.left() to draw a triangle
+# Use bob.forward() and bob.left() to draw a triangle
 # Make each side of the triangle a different color with 
-# tina.pencolor()
+# bob.pencolor()
 
-... # Your code here
+bob.shape('turtle')                    # Set the shape of the turtle to a turtle
+bob.speed(2)                           # Your code here
+
+bob.color("cyan")
+bob.forward(120)
+
+bob.pencolor("red")
+bob.left(90)
+
+
+bob.pencolor("yellow")
+bob.forward(90)
+
+bob.pencolor("orange")
+bob.left(127)
+bob.forward(147)
+
+bob.pencolor("green")
+bob.left(45)
+
+bob.backward(150)
+
 
 turtle.exitonclick()                    # Close the window when we click on it
