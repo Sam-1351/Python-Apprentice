@@ -33,12 +33,13 @@ bob.forward(90)
 
 bob.pencolor("orange")
 bob.left(127)
-bob.forward(147)
+bob.forward(148)
 
 bob.pencolor("green")
 bob.left(45)
 
+bob.penup()
 bob.backward(150)
-
+bob.write("Why did my triangle take so long to make?!")
 
 turtle.exitonclick()                    # Close the window when we click on it
